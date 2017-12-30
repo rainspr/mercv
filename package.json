@@ -1,0 +1,27 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build & npm run bundle",
+    "bundle": "parcel src/index.html",
+    "build": "riot src/app/ src/tags.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainspr/mercv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rainspr/mercv/issues"
+  },
+  "homepage": "https://github.com/rainspr/mercv#readme",
+  "dependencies": {
+    "babel-preset-es2015-riot": "^1.1.0",
+    "parcel-bundler": "^1.3.1",
+    "riot": "^3.8.1"
+  }
+}
